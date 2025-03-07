@@ -19,7 +19,7 @@ export const Experience=()=>{
               {experience.startDate} - {experience.endDate}
             </time>
             <div className="mt-2 flex flex-col space-y-0.5">
-              <h3 className="text-lg font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold tracking-tight text-gray-900 ">
                 {experience.role}
               </h3>
               {experience.companyUrl?(
