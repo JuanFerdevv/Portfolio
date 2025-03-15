@@ -1,10 +1,11 @@
-import { GitHubIcon } from "@/components/icons/GithubIcon";
-import { InstagramIcon } from "./icons/InstagramIcon";
+import { GitHubIcon } from "@/components/icons/Github";
+import { InstagramIcon } from "@/components/icons/Instagram";
 import { contactInfo } from "data/contactInfo";
-import { LinkedinIcon } from "./icons/LinkedinIcon";
-import { EmailIcon } from "./icons/EmailIcon";
+import { LinkedinIcon } from "./icons/Linkedin";
+import { EmailIcon } from "./icons/Email";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
+
 
 const socialLinks=[
     {
@@ -21,8 +22,7 @@ const socialLinks=[
         name:"Linkedin",
         url:contactInfo.linkedin,
         icon:LinkedinIcon
-    },
-    
+    }
 ]
 
 export const Navbar=()=>{
@@ -45,12 +45,12 @@ export const Navbar=()=>{
             ) ;
             
             })}
-             <a href="mailto:juancalvache5056@gmail.com">
-        <Button variant="ghost" size="icon">
-        <EmailIcon />
-        </Button>
-        </a>
-
+                <a href="mailto:juancalvache5056@gmail.com">
+                <Button variant="ghost" size="icon">
+                <EmailIcon></EmailIcon>
+                </Button>
+                </a>
+                
             </div>
         </nav>
     )
