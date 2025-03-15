@@ -32,7 +32,7 @@ export const experienceData:iExperience[]=[
     startDate: 'Junio 2023',
     endDate: 'noviembre 2023',
     latest: false,
-    stack:["Laravel","Livewire","Figma","Monday","MySql","Selenium","Slack","Bootstrap"]
+    stack:["Laravel 9","Livewire","Figma","Monday","MySql","Selenium","Slack","Bootstrap"]
   },
   {
     role: 'Desarrollador de Software',
@@ -42,7 +42,7 @@ export const experienceData:iExperience[]=[
     startDate: 'Octubre 2022',
     endDate: 'marzo 2023',
     latest: false,
-    stack:["Java 17","FlatLab","Excel","PostgreSQL","Monday","Selenium"]
+    stack:["Java 17","FlatLaf","Excel","PostgreSQL","Monday","Selenium"]
   },
   
 ]

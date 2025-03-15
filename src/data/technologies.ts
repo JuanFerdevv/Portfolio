@@ -96,6 +96,22 @@ export const technologies:Technologies[]=[
         icon:LaravelIcon
     },
     {
+        stack:"Laravel 9",
+        icon:LaravelIcon
+    },
+    {
+        stack:"Laravel 10",
+        icon:LaravelIcon
+    },
+    {
+        stack:"Laravel 11",
+        icon:LaravelIcon
+    },
+    {
+        stack:"Laravel 12",
+        icon:LaravelIcon
+    },
+    {
         stack:"Livewire",
         icon:LivewireIcon
     },
