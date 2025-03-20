@@ -31,6 +31,8 @@ import { TurborepoIcon } from "@/components/icons/Turborepo";
 import { VercelIcon } from "@/components/icons/Vercel";
 import { ShadcnUiIcon } from "@/components/icons/ShadcnUi";
 import { SeleniumIcon } from "@/components/icons/Selenium";
+import { BrevoIcon } from "@/components/icons/Brevo";
+import { PhpIcon } from "@/components/icons/Php";
 
 
 interface Technologies{
@@ -186,5 +188,13 @@ export const technologies:Technologies[]=[
     {
         stack:"shadcn/ui",
         icon:ShadcnUiIcon
+    },
+    {
+        stack:"Brevo",
+        icon:BrevoIcon
+    },
+    {
+        stack:"PHP",
+        icon:PhpIcon
     }
 ]

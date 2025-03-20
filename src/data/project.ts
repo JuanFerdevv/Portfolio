@@ -2,27 +2,11 @@ import { iProject } from "types/project.type";
 
 export const project:iProject[]=[
     {
-    title:"Proyecto 1",
-    description:"proyecto web",
-    category:["Desarrollo Full Stack","Diseño Web"],
-    techStack:['Turborepo', 'Next.js', 'Tailwind CSS'],
-    url:"",
-    icon:"",
-    },
-    {
-    title:"",
-    description:"",
-    category:["Desarrollo Full Stack","Diseño Web"],
-    techStack:['Turborepo', 'Next.js', 'Tailwind CSS'],
-    url:"",
-    icon:"",
-    },
-    {
-    title:"",
-    description:"",
-    category:["Desarrollo Full Stack","Diseño Web"],
-    techStack:['Turborepo', 'Next.js', 'Tailwind CSS'],
-    url:"",
-    icon:"",
-    },
+    tittle:"Mi propio Microframework PHP",
+    description:"Microframework desde cero, aplicando POO, MVC, ORMs.",
+    techStack:["MySql","PHP"],
+    url:"https://github.com/JuanFerdevv/Replica-Laravel",
+    icon:"/myOwnFramework.png",
+    githubUrl:"https://github.com/JuanFerdevv/Replica-Laravel"
+    },    
 ]

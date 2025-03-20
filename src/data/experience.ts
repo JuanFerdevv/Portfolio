@@ -4,7 +4,17 @@ export const experienceData:iExperience[]=[
   {
     role: 'Desarrollador de Software',
     aboutRole:
-      'Diseñé y desarrollé una aplicación web para Zick Studio, un estudio de arquitectura, que permite a las usuarias crear un portafolio profesional mediante la subida de imágenes optimizadas a través de un algoritmo de compresión personalizado. La aplicación incluye un sistema de registro y autenticación de usuarios, un panel administrativo para el análisis de cada del proyecto arquitectónico. Además, realice la documentación de manuales de usuario y desarrollo. También gestioné el despliegue y configuración del hosting para garantizar la disponibilidad y rendimiento del sistema.',
+      'Desarrollé una aplicación web que calcula los materiales de construcción según los metros cuadrados y el tipo de superficie, reemplazando el uso de hojas de Excel. Los resultados se envían al dueño de la bodega para mejorar la atención al cliente.',
+    company: 'Homecret Ecuador',
+    startDate: 'Enero 2025',
+    endDate: 'Febrero 2025',
+    latest: true,
+    stack:["Next.js","Vercel","Brevo","Motion","Tailwind CSS","Excel"]
+  },
+  {
+    role: 'Desarrollador de Software',
+    aboutRole:
+      'Diseñé y desarrollé una aplicación web para Zick Studio, donde las usuarias crean portafolios de arquitectura con proyectos fotográficos de hasta 1GB. Implementé un algoritmo de compresión, un dashboard personalizado para análisis y gestioné el hosting para optimizar el rendimiento.',
     company: 'Zick Studio',
     companyUrl: 'https://zickstudio.com',
     startDate: 'Febrero 2024',
@@ -26,7 +36,7 @@ export const experienceData:iExperience[]=[
   {
     role: 'Desarrollador de Software',
     aboutRole:
-      'Diseñé y desarrollé una aplicación web para el Departamento de Avalúos y Catastros del Municipio de Guaranda, enfocada en optimizar la gestión burocrática y la administración de documentos. Lideré el levantamiento de requerimientos, coordiné equipos de trabajo, y planifiqué actividades mediante diagramas de Gantt para garantizar un flujo eficiente del proyecto. Mi rol incluyó el desarrollo full stack, asegurando una solución escalable y adaptada a las necesidades específicas del departamento.',
+      'Desarrollé una aplicación web para el Departamento de Avalúos y Catastros de Guaranda, optimizando la gestión documental. Lideré requerimientos, coordiné equipos y planifiqué con diagramas de Gantt, asegurando una solución escalable',
     company: 'GAD Guaranda',
     companyUrl: 'https://suelocomercialguaranda.online',
     startDate: 'Junio 2023',
@@ -37,7 +47,7 @@ export const experienceData:iExperience[]=[
   {
     role: 'Desarrollador de Software',
     aboutRole:
-      'Diseñé y desarrollé un software de escritorio utilizando Java, PostgreSQL, Excel y la librería Flatlaf, implementando la metodología DAO para garantizar una arquitectura eficiente y modular. El sistema fue creado para gestionar y registrar el historial clínico de pacientes, resolviendo la ausencia de herramientas digitales en el proceso de almacenamiento de registros. La solución incluye funcionalidades para el manejo seguro de datos, exportación de informes en Excel, y una interfaz intuitiva que mejora la experiencia del usuario.',
+      'Desarrollé un software de escritorio en Java con PostgreSQL y Flatlaf para gestionar historiales clínicos, aplicando DAO para una arquitectura modular. Incluye seguridad de datos, exportación a Excel e interfaz intuitiva.',
     company: 'Casa de Salud Dr. Darwin Calvache',
     startDate: 'Octubre 2022',
     endDate: 'marzo 2023',

@@ -45,7 +45,7 @@ export const Experience=()=>{
                 if(!tech) return null;
                 const IconComponent=tech.icon;
                 return(
-                  <div key={index} className="m-1 inline-flex cursor-default items-center space-x-2 rounded-md border border-neutral-300 bg-neutral-200/50 px-2 py-0.5 font-mono text-[14px] font-medium text-neutral-700 dark:border-neutral-800 dark:bg-neutral-800/60 dark:text-neutral-300">
+                  <div key={index} className="m-1 ml-0 inline-flex cursor-default items-center space-x-2 rounded-md border border-neutral-300 bg-neutral-200/50 px-2 py-0.5 font-mono text-[14px] font-medium text-neutral-700 dark:border-neutral-800 dark:bg-neutral-800/60 dark:text-neutral-300">
                     <IconComponent width={16} height={16} ></IconComponent>
                     <span>{tag}</span>
                   </div>

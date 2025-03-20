@@ -1,3 +1,7 @@
+export type Category =
+  | 'Desarrollo Full Stack'
+  | 'Diseño Web'
+
 export type Stack =
   | 'Next.js'
   | 'Tailwind CSS'
@@ -34,6 +38,8 @@ export type Stack =
   | 'FlatLaf'
   | 'Excel'
   | 'Selenium'
+  | 'Brevo'
+  | 'PHP'
   | 'Google Analytics'
   | 'shadcn/ui';
 
