@@ -21,7 +21,6 @@ export const ProjectCard:React.FC<ProjectCardProps>=({
     icon,
     url,
     githubUrl,
-    category,
     techStack
 })=>{
     return(
@@ -37,7 +36,10 @@ export const ProjectCard:React.FC<ProjectCardProps>=({
                             <>
                             {icon && <img src={icon} alt={tittle} className="h-6 w-6"></img>}
                             <a 
-                            href="http://"
+                            href={url}
+                            title={`View ${tittle} repository on GitHub`}
+                            target="_blank"
+                            rel="noopener"
                             className="group flex items-center gap-[6px] font-medium 
                             "
                             >
