@@ -1,8 +1,7 @@
-import { project } from "data/project";
 import { GitHubIcon } from "./icons/Github";
 import { technologies } from "data/technologies";
 import { ArrowUpRight, Icon } from "lucide-react";
-import { iProject } from "types/project.type";
+
 
 interface ProjectCardProps {
     tittle: string;

@@ -14,17 +14,6 @@ export const experienceData:iExperience[]=[
   {
     role: 'Desarrollador de Software',
     aboutRole:
-      'Diseñé y desarrollé una aplicación web para Zick Studio, donde las usuarias crean portafolios de arquitectura con proyectos fotográficos de hasta 1GB. Implementé un algoritmo de compresión, un dashboard personalizado para análisis y gestioné el hosting para optimizar el rendimiento.',
-    company: 'Zick Studio',
-    companyUrl: 'https://zickstudio.com',
-    startDate: 'Febrero 2024',
-    endDate: 'Junio 2024',
-    latest: false,
-    stack:["Next.js","Prisma","PostgreSQL","Motion","Figma","Hostinger","Google Analytics","Tailwind CSS"]
-  },
-  {
-    role: 'Desarrollador de Software',
-    aboutRole:
       'Creé y desarrollé una landing page para Estudio Atlas, un estudio de diseño de interiores, con el objetivo de ofrecer una plataforma profesional para exhibir su portafolio de proyectos de manera organizada y atractiva. La página web está optimizada para mejorar su presencia en internet, destacando el diseño visual moderno y la experiencia de usuario intuitiva. Además, se implementaron prácticas de SEO básico para mejorar su posicionamiento en motores de búsqueda y atraer potenciales clientes.',
     company: 'Estudio Atlas',
     companyUrl: 'https://estudioatlas.com',
@@ -32,6 +21,17 @@ export const experienceData:iExperience[]=[
     endDate: 'Noviembre 2024',
     latest: false,
     stack:["Next.js","Firebase","Motion","Figma","Hostinger","Google Analytics","Tailwind CSS"]
+  },
+  {
+    role: 'Desarrollador de Software',
+    aboutRole:
+      'Diseñé y desarrollé una aplicación web para Zick Studio, donde las usuarias crean portafolios de arquitectura con proyectos fotográficos de hasta 1GB. Implementé un algoritmo de compresión, un dashboard personalizado para análisis y gestioné el hosting para optimizar el rendimiento.',
+    company: 'Zick Studio',
+    companyUrl: 'https://zickstudio.com',
+    startDate: 'Febrero 2024',
+    endDate: 'Junio 2024',
+    latest: false,
+    stack:["Next.js","Prisma","PostgreSQL","Motion","Figma","Hostinger","Google Analytics","Tailwind CSS"]
   },
   {
     role: 'Desarrollador de Software',
